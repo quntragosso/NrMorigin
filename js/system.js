@@ -389,13 +389,13 @@ $(function () {
     $("#start_btn").on("click", function () {
         $("#opening").fadeOut(800);
         setTimeout(function () {
-            playerMonsterStatusTest1.bonus = [0, 0, 0, 0];
-            playerMonsterStatusTest1.evoBonus = 0;
-            playerMonsterStatus = playerMonsterStatusTest1;
+            // playerMonsterStatusTest1.bonus = [0, 0, 0, 0];
+            // playerMonsterStatusTest1.evoBonus = 0;
+            // playerMonsterStatus = playerMonsterStatusTest1;
             // playerMonsterStatus.evoPattern = 0;
-            // playerMonsterStatus0.bonus = [0, 0, 0, 0];
-            // playerMonsterStatus0.evoBonus = 0;
-            // playerMonsterStatus = playerMonsterStatus0;
+            playerMonsterStatus0.bonus = [0, 0, 0, 0];
+            playerMonsterStatus0.evoBonus = 0;
+            playerMonsterStatus = playerMonsterStatus0;
             $("#loading").fadeIn(800);
         }, 800);
         setTimeout(function () {
